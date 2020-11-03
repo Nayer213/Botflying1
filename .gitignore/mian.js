@@ -7,6 +7,8 @@ const colours = require("./colours.json");
 
 
 require("./util/eventHandler")(bot)
+
+client.login(process.env.TOEKN);
  
 bot.commands = new Discord.Collection();
  
